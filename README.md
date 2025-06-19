@@ -8,7 +8,6 @@ Diseño Moderno y Responsivo: Utiliza Tailwind CSS para un diseño limpio, moder
 Experiencia de Usuario Mejorada: Incorpora animaciones sutiles con JavaScript para una interacción fluida y atractiva.
 Enlaces Externos Seguros: Todos los enlaces a mis perfiles externos (LinkedIn, GitHub) y correo electrónico se abren en nuevas pestañas con seguridad mejorada (target="_blank" rel="noopener noreferrer").
 Facilidad de Despliegue: Preparado para un despliegue sencillo en plataformas de hosting como Heroku, Railway o Render.
-
 🛠️ Tecnologías Utilizadas
 Python 3.12.10: El corazón del proyecto, manejando la lógica y la gestión de datos.
 Flask: Micro-framework web para Python, utilizado para servir la aplicación.
@@ -17,7 +16,6 @@ HTML5: Estructura del contenido.
 CSS3 (Tailwind CSS): Framework CSS de utilidad-first para un diseño rápido y responsivo.
 JavaScript: Para interacciones y animaciones en el lado del cliente (Scroll Reveal).
 Font Awesome: Iconografía profesional.
-
 📂 Estructura del Proyecto
 mi-nuevo-cv/
 ├── app.py                  # La aplicación Flask principal
@@ -28,31 +26,36 @@ mi-nuevo-cv/
     └── CV_Miguel_Pastor_Melcon.pdf # Versión descargable del CV en PDF
 ├── .gitignore              # Archivos y carpetas a ignorar por Git
 └── README.md               # Este archivo
-
 🚀 Cómo Ejecutarlo Localmente
 Sigue estos sencillos pasos para tener mi CV funcionando en tu máquina:
 
 Clona el repositorio:
+Bash
 
 git clone https://github.com/mipasmel/mi-nuevo-cv.git
 cd mi-nuevo-cv
-
 Crea y activa un entorno virtual (recomendado):
+Bash
 
 python -m venv venv
-# En Windows:
-.\venv\Scripts\activate
-# En macOS/Linux:
-source venv/bin/activate
+En Windows:
 
+Bash
+
+.\venv\Scripts\activate
+En macOS/Linux:
+
+Bash
+
+source venv/bin/activate
 Instala las dependencias:
+Bash
 
 pip install Flask
-
 Ejecuta la aplicación Flask:
+Bash
 
 python app.py
-
 Accede al CV:
 Abre tu navegador web y visita http://127.0.0.1:5000 (o el puerto que se muestre en la terminal).
 
@@ -62,5 +65,4 @@ Si tienes alguna pregunta, sugerencia, o simplemente quieres conectar, no dudes 
 Email: miguelpasmel@gmail.com
 LinkedIn: Miguel Pastor Melcón
 GitHub: mipasmel
-
 © 2025 Miguel Pastor Melcón. Diseñado con ❤️ y código.
