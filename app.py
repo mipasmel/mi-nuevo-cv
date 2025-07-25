@@ -49,7 +49,7 @@ cv_data = {
 
     "habilidades_tecnicas": [
         "Python", "Flask", "Pandas", "NumPy", "requests",
-        "SQLite", "PostgreSQL", "Git", "GitHub", "VS Code", "Windows"
+        "SQLite", "PostgreSQL", "Git", "GitHub", "VS Code", "Windows", "Análisis de datos"
     ],
 
     "soft_skills": [
@@ -58,8 +58,10 @@ cv_data = {
     ],
 
     "formacion_academica": [
-        {"fecha": "Feb. 2025", "titulo": "Curso de Python", "institucion": "Santander Open Academy"},
+        {"fecha": "Jul. 2025", "titulo": "Python for Data Science", "institucion": "IBM"},
+        {"fecha": "Jul. 2025", "titulo": "Introducción al análisis de datos con Python", "institucion": "Desafío Latam"},
         {"fecha": "Jun. 2025", "titulo": "Certificate of Accomplishment Python", "institucion": "HackerRank"},
+        {"fecha": "Feb. 2025", "titulo": "Curso de Python", "institucion": "Santander Open Academy"},
         {"fecha": "Jun. 2015", "titulo": "Facultad de Formación del Profesorado y Educación", "institucion": "Oviedo"},
     ]
 }
