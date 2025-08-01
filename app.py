@@ -4,7 +4,6 @@ import os
 app = Flask(__name__)
 
 # --- 1. Definir todos los datos de tu CV en Python ---
-# Esto hace que sea más fácil de modificar y menos "HTML" en tu HTML
 cv_data = {
     "nombre_completo": "Miguel Pastor Melcón",
     "titulo_profesional": "Backend & Automation Python Developer",
@@ -68,7 +67,7 @@ cv_data = {
 
 @app.route("/")
 def index():
-    # Pasa el diccionario cv_data completo a la plantilla
+    # Pasar el diccionario cv_data completo a la plantilla
     return render_template("index.html", **cv_data) # **cv_data desempaqueta el diccionario en argumentos de palabra clave
 
 if __name__ == "__main__":
